@@ -40,6 +40,10 @@ body {
   font-size: 18px;
 }
 
+.btn:hover{
+  cursor: pointer;
+}
+
 .rnm{
   color: rgb(0, 42, 62);
   border: 2px solid  rgb(0, 42, 62);
@@ -49,4 +53,15 @@ body {
   margin-top: 10px;
   font-size: 15px;
   opacity: 0;
+  transition: transform 0.5s;
+}
+
+.rnm a{
+  text-decoration: none;
+  color: rgb(0, 42, 62);
+}
+
+.rnm:hover{
+  transform: scale(1.5);
+  cursor: pointer;
 }
