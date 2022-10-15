@@ -37,7 +37,7 @@ body {
   height: 50px;
   width: 150px;
   color: white;
-  font-size: 18px;
+  font-size: 12px;
 }
 
 .btn:hover{
@@ -53,7 +53,6 @@ body {
   margin-top: 10px;
   font-size: 15px;
   opacity: 0;
-  transition: transform 0.5s;
 }
 
 .rnm a{
@@ -62,6 +61,5 @@ body {
 }
 
 .rnm:hover{
-  transform: scale(1.5);
   cursor: pointer;
 }
